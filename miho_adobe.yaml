@@ -224,6 +224,14 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
+  - name: Adobe
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 节点选择
+      - 自动选择
   - name: 漏网之鱼
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
@@ -541,7 +549,7 @@ rule-providers:
 
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
-  - "RULE-SET,Adobe,国外媒体,广告拦截,全球直连"
+  - "RULE-SET,Adobe,Adobe"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
