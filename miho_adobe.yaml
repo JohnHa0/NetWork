@@ -321,6 +321,13 @@ proxy-groups:
       - 奈飞节点
 
 rule-providers:
+  Adobe:
+   url: https://raw.githubusercontent.com/JohnHa0/NetWork/refs/heads/main/adobe.list
+   path: ./ruleset/Adobe.list 
+   behavior: classical
+   interval: 86400
+   format: text
+   type: http
   LocalAreaNetwork:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/LocalAreaNetwork.list
     path: ./ruleset/LocalAreaNetwork.list
@@ -534,6 +541,7 @@ rule-providers:
 
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
+  - "RULE-SET,Adobe,国外媒体,广告拦截,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
