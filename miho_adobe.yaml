@@ -533,12 +533,6 @@ rule-providers:
     type: http
 
 rules:
-  # ============Adobe===================
-  - "DOMAIN-SUFFIX,adobe.io,REJECT"
-  - "DOMAIN-SUFFIX,*.adobe.io,REJECT"
-  - "DOMAIN-SUFFIX,adobestats.io,REJECT"
-  - "DOMAIN-SUFFIX,photo-api.adobe.io,DIRECT"
-  # =======================================
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
