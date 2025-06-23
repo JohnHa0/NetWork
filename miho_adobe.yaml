@@ -224,7 +224,7 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: Adobe
+  - name: Adobe正版验证
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
     type: select
     proxies:
@@ -549,7 +549,7 @@ rule-providers:
 
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
-  - "RULE-SET,Adobe,Adobe"
+  - "RULE-SET,Adobe,Adobe正版验证"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
