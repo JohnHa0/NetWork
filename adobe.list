@@ -1,4 +1,4 @@
-# - DOMAIN-REGEX,^[a-zA-Z0-9]{10,12}\.(adobe\.io|adobestats\.io|prod\.cloud\.adobe\.io)$,REJECT
+DOMAIN-REGEX,^[a-zA-Z0-9]{10,12}\.(adobe\.io|adobestats\.io|prod\.cloud\.adobe\.io)$
 DOMAIN-SUFFIX,prod.adobegenuine.com
 DOMAIN-SUFFIX,cc-api-data.adobe.io
 DOMAIN-SUFFIX,ic.adobe.io
