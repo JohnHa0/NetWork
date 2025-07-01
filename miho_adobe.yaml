@@ -15,12 +15,27 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    # - "*"
     - +.lan
     - +.local
     - time.*.com
     - ntp.*.com
     - +.market.xiaomi.com
+        # Google Voices
+    - 'lens.l.google.com'
+ 
+    # Nintendo Switch
+    - '*.n.n.srv.nintendo.net'
+ 
+    # PlayStation
+    - '+.stun.playstation.net'
+ 
+    # XBox
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+ 
+    # Microsoft
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
   use-hosts: false
   use-system-hosts: false
   nameserver:
