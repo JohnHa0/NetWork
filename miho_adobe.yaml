@@ -501,6 +501,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  MicrosoftNetVerify:
+    url: https://raw.githubusercontent.com/JohnHa0/NetWork/refs/heads/main/microsoftDirect.list
+    path: ./ruleset/Microsoft.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   Apple:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Apple.list
     path: ./ruleset/Apple.list
@@ -651,6 +658,7 @@ rules:
   - "RULE-SET,GoogleFCM,谷歌FCM"
   - "RULE-SET,GoogleCN,全球直连"
   - "RULE-SET,SteamCN,全球直连"
+  - "RULE-SET,MicrosoftNetVerify,全球直连"
   - "RULE-SET,Bing,微软Bing"
   - "RULE-SET,OneDrive,微软云盘"
   - "RULE-SET,Microsoft,微软服务"
