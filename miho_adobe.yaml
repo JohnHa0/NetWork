@@ -1,3 +1,8 @@
+nameserver-policy:
+    "www.msftconnecttest.com": "8.8.8.8"
+    "dns.msftncsi.com": "8.8.8.8"
+    "www.msftncsi.com": "8.8.8.8
+    # 解决tunnel模式网络图标异常
 proxy-groups:
   - name: 节点选择
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
