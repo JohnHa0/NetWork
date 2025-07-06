@@ -1,6 +1,6 @@
 function operator(proxies) {
-  const filterPattern = /.?购买|微信|禁止|官网|流量|过期|登录|商业|面板|下架/;
-
+  // const filterPattern = /.?购买|微信|禁止|官网|流量|过期|登录|商业|面板|下架/;
+  const filterPattern = ""
   const renameRules = [
     // 国家/地区简化
     { pattern: /🇨🇳 中国-(\S+)/g, replacement: "🇨🇳$1" },
