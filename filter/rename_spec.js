@@ -1,6 +1,6 @@
 function operator(proxies) {
-  // const filterPattern = /.?购买|微信|禁止|官网|流量|过期|登录|商业|面板|下架/;
-  const filterPattern = ""
+  const filterPattern = /.?购买|微信|禁止|官网|流量|过期|登录|商业|面板/;
+
   const renameRules = [
     // 国家/地区简化
     { pattern: /🇨🇳 中国-(\S+)/g, replacement: "🇨🇳$1" },
@@ -18,18 +18,12 @@ function operator(proxies) {
     { pattern: /1Gbps/gi, replacement: "1G" },
     { pattern: /500Mbps/gi, replacement: "500M" },
     { pattern: /(\d+)Mbps/gi, replacement: "$1M" },
-    // 倍率识别与标准化
     { pattern: /([1-9])倍/gi, replacement: "x$1" },
-    { pattern: /(\d)[xX]/g, replacement: "x$1" },  // 替换 1x → x1
-    // 完全删除速率
-    // { pattern: /\s*(\d+Mbps|1Gbps)/gi, replacement: "" },
-
-
+    { pattern: /(\d)[xX]/g, replacement: "x$1" },
 
     // 位置信息精简
     { pattern: /(油尖旺御金·国峯|京畿道板桥|전라북도 전주시)/g, replacement: "" },
     { pattern: /(Equinix|Legacy Magic|Magic)\s*/g, replacement: "" },
-    { pattern: /(|游戏专线|原生游戏解锁)/g, replacement: "游戏" },
 
     // 解锁服务统一为 NF
     { pattern: /(HBO TVB|Netflix 动画疯|Netflix|动画疯)/gi, replacement: "NF" },
@@ -45,8 +39,7 @@ function operator(proxies) {
     { pattern: /ASYNCHRONOUS TRANSFERMODE/gi, replacement: "ATM" },
 
     // 不必要的描述性信息
-    { pattern: /(高级|实验性|临时接入|中继|传输)/g, replacement: "" },
-    
+    { pattern: /(高级|实验性|临时接入|原生游戏解锁|中继|传输)/g, replacement: "" },
 
     // 印度无用信息去除
     { pattern: /(班加罗尔|बेंगलुरु|एयरटेल)/g, replacement: "" },
@@ -59,9 +52,9 @@ function operator(proxies) {
     { pattern: /NTT/gi, replacement: "NTT" },
 
     // 清理和格式优化
-    { pattern: /\s{2,}/g, replacement: " " },  // 多余空格
+    { pattern: /\s{2,}/g, replacement: " " },
     { pattern: /([^ ])(🇨🇳|🇭🇰|🇯🇵|🇰🇷|🇺🇸|🇸🇬|🇫🇷|🇷🇺|🇮🇳|🇨🇦|🇬🇧|🇩🇪|🇮🇪|🏴‍☠️)/g, replacement: "$1 $2" },
-    { pattern: /(NF)\s+(NF)/g, replacement: "$1" }  // 合并 NF
+    { pattern: /(NF)\s+(NF)/g, replacement: "$1" }
   ];
 
   return proxies
