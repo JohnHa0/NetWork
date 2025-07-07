@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-KEYWORD,sgameglobal.com
 IP-CIDR, 183.192.65.101/16, no-resolve
 IP-CIDR, 43.132.55.55/16, no-resolve
+IP-CIDR, 43.175.103.10/16, no-resolve
 # DOMAIN-SUFFIX,intlgame.com
 # DOMAIN-SUFFIX,sgameglobal.com
 # DOMAIN-SUFFIX,vasdgame.com
