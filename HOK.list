@@ -4,9 +4,10 @@ DOMAIN-SUFFIX,intlgame.com
 DOMAIN-SUFFIX,sgameglobal.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-KEYWORD,sgameglobal.com
-IP-CIDR,183.192.65.101/16,no-resolve
-IP-CIDR,43.132.55.55/16,no-resolve
-DOMAIN-SUFFIX,iegcom.com
+IP-CIDR,183.192.65.101/24,no-resolve
+IP-CIDR,43.132.55.55/24,no-resolve
+IP-CIDR,118.184.136.180/16,no-resolve
+# DOMAIN-SUFFIX,iegcom.com
 # Direct
 IP-CIDR,43.134.243.97/16,no-resolve
 IP-CIDR,43.152.113.56/16,no-resolve
