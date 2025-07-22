@@ -3,7 +3,5 @@
 # IP-CIDR,43.152.113.56/16,no-resolve
 # IP-CIDR,43.175.103.10/16,no-resolve
 # Direct
-IP-CIDR,43.134.243.0/24,no-resolve
-IP-CIDR,43.152.113.0/24,no-resolve
-IP-CIDR,43.175.103.0/24,no-resolve
+
 # IP-CIDR,43.175.103.10/16,no-resolve
