@@ -3,19 +3,20 @@ DOMAIN,ssl.msdk.qq.com
 DOMAIN,dlied5.qq.com
 DOMAIN,dl.listdl.com
 DOMAIN,cdn.wetest.net
+DOMAIN–SUFFIX,wetest.qq.com
 DOMAIN-SUFFIX,hok-dr.intlgame.com
 DOMAIN-SUFFIX,hok.intlgame.com
 DOMAIN-SUFFIX,intlgame.com
 DOMAIN-SUFFIX,sgameglobal.com
 DOMAIN-SUFFIX,appsflyersdk.com
 DOMAIN-KEYWORD,sgameglobal.com
-IP-CIDR,183.192.65.101/24,no-resolve
-IP-CIDR,43.132.55.55/24,no-resolve
-IP-CIDR,43.159.112.62/16,no-resolve
+#IP-CIDR,183.192.65.101/24,no-resolve
+#IP-CIDR,43.132.55.55/24,no-resolve
+#IP-CIDR,43.159.112.62/16,no-resolve
 #IP-CIDR,118.184.136.180/16,no-resolve
 #IP-CIDR,118.184.136.0/24
-IP-CIDR,114.152.162.31/16,no-resolve
-IP-CIDR,114.152.162.31,no-resolve
+#IP-CIDR,114.152.162.31/16,no-resolve
+#IP-CIDR,114.152.162.31,no-resolve
 
 # 存疑
 # IP-CIDR,118.184.136.180/16,no-resolve
