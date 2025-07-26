@@ -10,9 +10,10 @@ DOMAIN-SUFFIX,hok.intlgame.com
 DOMAIN-SUFFIX,intlgame.com
 DOMAIN-SUFFIX,sgameglobal.com
 DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-SUFFIX,.wetest.net
+DOMAIN-SUFFIX,wetest.net
 
 DOMAIN-KEYWORD,sgameglobal.com
+DOMAIN-SUFFIX,gamelet.games
 
 #IP-CIDR,183.192.65.101/24,no-resolve
 IP-CIDR,43.132.55.55/24,no-resolve
