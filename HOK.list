@@ -4,16 +4,20 @@ DOMAIN,dlied5.qq.com
 DOMAIN,dl.listdl.com
 DOMAIN,cdn.wetest.net
 DOMAIN,android.crashsight.wetest.net
+
+DOMAIN-SUFFIX,wetest.net
 DOMAIN–SUFFIX,wetest.qq.com
 DOMAIN-SUFFIX,hok-dr.intlgame.com
 DOMAIN-SUFFIX,hok.intlgame.com
 DOMAIN-SUFFIX,intlgame.com
 DOMAIN-SUFFIX,sgameglobal.com
 DOMAIN-SUFFIX,appsflyersdk.com
-DOMAIN-SUFFIX,wetest.net
+
+
+DOMAIN-SUFFIX,gamelet.games
 
 DOMAIN-KEYWORD,sgameglobal.com
-DOMAIN-SUFFIX,gamelet.games
+
 
 #IP-CIDR,183.192.65.101/24,no-resolve
 IP-CIDR,43.132.55.55/24,no-resolve
