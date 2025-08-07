@@ -23,6 +23,8 @@ DOMAIN-KEYWORD,sgameglobal.com
 IP-CIDR,43.132.55.55/24,no-resolve
 IP-CIDR,43.159.112.62/16,no-resolve
 
+IP–CIDR,120.53.53.53/16,no-resolve
+
 IP-CIDR,111.48.126.48/16,no-resolve
 #IP-CIDR,118.184.136.180/16,no-resolve
 #IP-CIDR,118.184.136.0/24
