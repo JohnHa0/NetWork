@@ -4,4 +4,11 @@ DOMAIN-SUFFIX,cc-api-data.adobe.io
 DOMAIN-SUFFIX,ic.adobe.io
 DOMAIN-SUFFIX,listary.com
 DOMAIN,account.listary.com
+# 阻断 Adobe
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,adobe.io
+DOMAIN-SUFFIX,adobelogin.com
+DOMAIN-SUFFIX,adobess.com
+DOMAIN-SUFFIX,adobe.cc
+DOMAIN-SUFFIX,adobegenuine.com
 
