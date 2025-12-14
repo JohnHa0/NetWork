@@ -1,4 +1,39 @@
+
+# ====== PT / BT Private Trackers ======
+DOMAIN-SUFFIX,zmpt.cc,DIRECT
+DOMAIN-SUFFIX,carpt.net,DIRECT
+DOMAIN-SUFFIX,hdtime.org,DIRECT
+DOMAIN-SUFFIX,ptchina.org,DIRECT
+
+# ====== Public Trackers ======
+DOMAIN-SUFFIX,openbittorrent.com,DIRECT
+DOMAIN-SUFFIX,acgtracker.com,DIRECT
+DOMAIN-SUFFIX,coppersurfer.tk,DIRECT
+DOMAIN-SUFFIX,ktxp.com,DIRECT
+DOMAIN-SUFFIX,ipv6tracker.org,DIRECT
+
+# ====== Tracker Keyword Fallback ======
+DOMAIN-KEYWORD,tracker,DIRECT
+
 DOMAIN-SUFFIX, zmpt.cc
 DOMAIN-SUFFIX, carpt.net
 DOMAIN-SUFFIX, hdtime.org
 DOMAIN-SUFFIX, ptchina.org
+# ====== BT / PT Tracker 直连 ======
+DOMAIN-SUFFIX,openbittorrent.com
+DOMAIN-SUFFIX,acgtracker.com
+DOMAIN-SUFFIX,coppersurfer.tk
+DOMAIN-SUFFIX,hdtime.org
+DOMAIN-SUFFIX,ktxp.com
+DOMAIN-SUFFIX,carpt.net
+DOMAIN-SUFFIX,ipv6tracker.org
+DOMAIN-SUFFIX,zmpt.cc
+# Tracker 关键字兜底
+DOMAIN-KEYWORD,tracker
+
+
+# BT 常用端口直连
+#DST-PORT,6881-6999
+#DST-PORT,51413
+#DST-PORT,6969
+#DST-PORT,7070
