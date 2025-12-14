@@ -1,3 +1,5 @@
+
+
 DOMAIN,ssl.msdk.qq.com
 DOMAIN,dlied5.qq.com
 DOMAIN,dl.listdl.com
@@ -17,6 +19,41 @@ DOMAIN-SUFFIX,gamelet.games
 
 DOMAIN-KEYWORD,sgameglobal.com
 
+
+
+
+#######################
+# // 国际环境生态学术出版商
+DOMAIN-SUFFIX,sciencedirect.com,学术网站
+DOMAIN-SUFFIX,researchgate.net,学术网站
+DOMAIN-SUFFIX,springer.com,学术网站
+DOMAIN-SUFFIX,wiley.com,学术网站
+DOMAIN-SUFFIX,spiedigitallibrary.org,学术网站
+DOMAIN-SUFFIX,blackwell-synergy.com,学术网站
+DOMAIN-SUFFIX,sciencemag.org,学术网站
+DOMAIN-SUFFIX,jstor.org,学术网站
+DOMAIN-SUFFIX,cabdirect.org,学术网站
+DOMAIN-SUFFIX,ieee.org,学术网站
+DOMAIN-SUFFIX,nature.com,学术网站
+DOMAIN-SUFFIX,sciencemag.org,学术网站
+DOMAIN-SUFFIX,osapublishing.org,学术网站
+DOMAIN-SUFFIX,webofknowledge.com,学术网站
+DOMAIN-SUFFIX,sciencedirect.com,学术网站
+DOMAIN-SUFFIX,elsevier.com,学术网站
+DOMAIN-SUFFIX,sciencedirectassets.com,学术网站
+DOMAIN-SUFFIX,els-cdn.com,学术网站
+DOMAIN-SUFFIX,springernature.com,学术网站
+DOMAIN-SUFFIX,cambridge.org,学术网站
+DOMAIN-SUFFIX,acs.org,学术网站
+DOMAIN-SUFFIX,pnas.org,学术网站
+DOMAIN-SUFFIX,iop.com,学术网站
+DOMAIN-SUFFIX,rsc.org,学术网站
+DOMAIN-SUFFIX,taylorfrancis.com,学术网站
+DOMAIN-SUFFIX,begellhouse.com,学术网站
+DOMAIN-SUFFIX,iop.org,学术网站
+DOMAIN-SUFFIX,ebscohost.com,学术网站
+DOMAIN-SUFFIX,aiaa.org,学术网站
+###############################
 
 #IP-CIDR,183.192.65.101/24,no-resolve
 IP-CIDR,43.132.55.55/24,no-resolve
