@@ -1,0 +1,26 @@
+  # 1. Apple Podcasts 核心目录及同步服务
+  - DOMAIN,podcasts.apple.com,PodcastProxy
+  - DOMAIN-SUFFIX,amp-api.podcasts.apple.com,PodcastProxy
+  - DOMAIN-SUFFIX,bookkeeper.itunes.apple.com,PodcastProxy # 播放进度跨设备同步
+
+  # 2. 主流播客音频托管平台 (CDN)
+  # 绝大多数外文和部分中文播客的实际音频存放在这些服务器上
+  - DOMAIN-SUFFIX,megaphone.fm,PodcastProxy # Spotify 旗下，极其常用
+  - DOMAIN-SUFFIX,art19.com,PodcastProxy # Amazon 旗下
+  - DOMAIN-SUFFIX,acast.com,PodcastProxy
+  - DOMAIN-SUFFIX,omnycontent.com,PodcastProxy
+  - DOMAIN-SUFFIX,libsyn.com,PodcastProxy
+  - DOMAIN-SUFFIX,simplecast.com,PodcastProxy
+  - DOMAIN-SUFFIX,buzzsprout.com,PodcastProxy
+  - DOMAIN-SUFFIX,podbean.com,PodcastProxy
+  - DOMAIN-SUFFIX,fireside.fm,PodcastProxy
+  - DOMAIN-SUFFIX,transistor.fm,PodcastProxy
+  - DOMAIN-SUFFIX,audioboom.com,PodcastProxy
+  - DOMAIN-SUFFIX,rss.com,PodcastProxy
+
+  # 3. 播客重定向与数据追踪服务
+  # 很多播客在下载前会经过这些域名进行数据统计，如果不放行这些域名，音频会直接加载失败
+  - DOMAIN-SUFFIX,pdst.fm,PodcastProxy
+  - DOMAIN-SUFFIX,podtrac.com,PodcastProxy
+  - DOMAIN-SUFFIX,chartable.com,PodcastProxy
+  - DOMAIN-SUFFIX,chrt.fm,PodcastProxy
